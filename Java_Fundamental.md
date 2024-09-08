@@ -4,3 +4,5 @@
 JVM constructs class
 int, class have some pre-defined meaning in Java
 dot means go inside
+main method is the starting point of an application
+JVM will execute the program
