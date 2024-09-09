@@ -1,22 +1,24 @@
 # Java Fundamental
- > Java is a strongly typed object oriented programming language
- When there is class, creating instance is compulsory.
-When saving a programm, class name of main method will be the file name
-JVM constructs class
-int, class have some pre-defined meaning in Java
-dot means go inside
-main method is the starting point of an application
-JVM will execute the program
-Object creation is known as Instantiation
-instance variable vs. local variable
+ > 1. Java is a strongly typed object oriented programming language.
+2.  When there is a class, creating instance is compulsory.
+3.  int, class have some pre-defined meaning in Java
+4. When saving a programm, class name of main method will be the file name
+5. JVM constructs class
+6. main method is the starting point of an application
+7. JVM will execute the program
+8. Object creation is known as "Instantiation".
 # What is instance variable?
 - Instance variables are directly declared inside a class.
 - Instance variable memory is allocated on the heap area with object creation.
 - Instance variable memory is de-allocated by the garbage collector when the object becomes unreachable.
 - The scope of instance variables can be used anywhere within the class.
-- Default values for instance variables will be initialized if not given.
-
-
+- Default values for instance variables will be initialized if not given. E.g. Default value of int, char, String
+# 
+- Local variables are directly declared inside method/block/loop within a class
+- Memory is allocated inside static area. Memory is de allocated when stackframe of that method/block is cleared after completing its task.
+- The scope of local variables are limited to method/block/loop when it is declared.
+- There is no default value for local variable
+  
 ~~~
 /*
 Difference between instance variable and local variable
@@ -40,7 +42,7 @@ public class Launch2
   public static void main(String args[]) 
   {
     Calc c = new Calc();
-    c.add();
+    c.add(); // dot means go inside
   }
 }
 ~~~
