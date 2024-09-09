@@ -13,7 +13,7 @@
 - Instance variable memory is de-allocated by the garbage collector when the object becomes unreachable.
 - The scope of instance variables can be used anywhere within the class.
 - Default values for instance variables will be initialized if not given. E.g. Default value of int, char, String
-# 
+# What is local variable?
 - Local variables are directly declared inside method/block/loop within a class
 - Memory is allocated inside static area. Memory is de allocated when stackframe of that method/block is cleared after completing its task.
 - The scope of local variables are limited to method/block/loop when it is declared.
