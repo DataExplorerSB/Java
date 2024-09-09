@@ -35,4 +35,4 @@ public class Launch2
   }
 }
 ~~~
-
+Memory of local variable will be deactivated once the activity is finished
