@@ -1,10 +1,4 @@
-# What is instance variable?
-- Instance variables are directly declared inside a class.
-- Instance variable memory is allocated on the heap area with object creation.
-- Instance variable memory is de-allocated by the garbage collector when the object becomes unreachable.
-- The scope of instance variables can be used anywhere within the class.
-- Default values for instance variables will be initialized if not given.
-
+# Java Fundamental
  > Java is a strongly typed object oriented programming language
  When there is class, creating instance is compulsory.
 When saving a programm, class name of main method will be the file name
@@ -15,6 +9,14 @@ main method is the starting point of an application
 JVM will execute the program
 Object creation is known as Instantiation
 instance variable vs. local variable
+# What is instance variable?
+- Instance variables are directly declared inside a class.
+- Instance variable memory is allocated on the heap area with object creation.
+- Instance variable memory is de-allocated by the garbage collector when the object becomes unreachable.
+- The scope of instance variables can be used anywhere within the class.
+- Default values for instance variables will be initialized if not given.
+
+
 ~~~
 /*
 Difference between instance variable and local variable
