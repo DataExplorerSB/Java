@@ -1,5 +1,5 @@
 # Java Fundamental
- > 1. Java is a strongly typed object oriented programming language.
+1. Java is a strongly typed object oriented programming language.
 2.  When there is a class, creating instance is compulsory.
 3.  int, class have some pre-defined meaning in Java
 4. When saving a programm, class name of main method will be the file name
