@@ -7,5 +7,5 @@ Object  Oriented provides concepts like:
 * c. Inheritance
 * d. Polymorphism
 * e. Abstraction
-*f.  Encapsulation
+* f.  Encapsulation
 Advantage of class and object: Re-usability of code
