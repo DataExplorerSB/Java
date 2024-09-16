@@ -8,4 +8,4 @@
 * d. Polymorphism
 * e. Abstraction
 * f.  Encapsulation
-Advantage of class and object: Re-usability of code
+
