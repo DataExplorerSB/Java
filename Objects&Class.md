@@ -18,7 +18,8 @@ fetching, wagging tail).
    ![image](https://github.com/user-attachments/assets/65bd5f7d-6b4f-4def-8da4-828ab503857d)
 
 ### Example of Creating Class & Object
-~~~class Start {
+~~~
+class Start {
     public static void main(String[] args) {
 
         System.out.println("Printing something");
