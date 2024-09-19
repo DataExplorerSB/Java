@@ -10,6 +10,55 @@ fetching, wagging tail).
 2. Class is a collection of objects. It is possible create multiple objects from a class.
 3. Class can have **properties** and **behaviors** declared
 4. Object is instance of class. Therefore the properties and behaviors declared in class, the objects created from this class will have the same properties nad behaviors. The values of these properties could be different, but objects will have same properties and behaviors as like the class.
- > ![image](https://github.com/user-attachments/assets/843bef87-5e0b-4cfa-b58a-a35b73beebd5)
+  ![image](https://github.com/user-attachments/assets/843bef87-5e0b-4cfa-b58a-a35b73beebd5)
 5. Function created inside class is called **Method**
 ## Creating Class and Objects
+1. Class can be created with class keyword.
+2. Object is created with new keyword.
+   ![image](https://github.com/user-attachments/assets/65bd5f7d-6b4f-4def-8da4-828ab503857d)
+
+### Example of Creating Class & Object
+~~~class Start {
+    public static void main(String[] args) {
+
+        System.out.println("Printing something");
+        // ek object create karne ki jarurat pad gyi
+        Pen p1 = new Pen();
+        Pen p2 = new Pen();
+        p1.model = "3 Rupya wala 1";
+        p2.model = "5 Rupya  wala 1";
+
+        p1.color = "black";
+        p2.color = "blue";
+
+        System.out.println(p1.model);
+        System.out.println(p2.model);
+
+        p1.write();
+
+        p2.write();
+
+    }
+}
+//Pen Class
+class Pen {
+    // class body
+    // properties/variables[instance]/data members
+    String color;
+    double price;
+    String model;
+    // ......
+
+    // behaviors/methods/member methods
+    public void write() {
+        System.out.println(model + " is writing in " + color + " Color");
+    }
+
+    // .....
+}
+~~~
+### How does object creation look like?
+![class](https://github.com/user-attachments/assets/12c829a5-e3dc-422e-8c93-73ad6fff5c4a)
+
+
+
