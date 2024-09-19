@@ -7,4 +7,6 @@
 fetching, wagging tail).
 ## Class:
 1. Blueprint from which individual objects are created. Blueprint is like creating design/ map before building a house. So, if any properties or behavior is mentioned in classs, the objects created from class will get the same properties and behavior as like mentioned in the blueprint i.e in class
-2. 
+2. Class is a collection of objects. It is possible create multiple objects from a class.
+3. Object is instance of class.
+4. 
