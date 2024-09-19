@@ -13,8 +13,8 @@ fetching, wagging tail).
   ![image](https://github.com/user-attachments/assets/843bef87-5e0b-4cfa-b58a-a35b73beebd5)
 5. Function created inside class is called **Method**
 ## Creating Class and Objects
-1. Class can be created with class keyword.
-2. Object is created with new keyword.
+1. Class can be created with **class** keyword.
+2. Object is created with **new** keyword.
    ![image](https://github.com/user-attachments/assets/65bd5f7d-6b4f-4def-8da4-828ab503857d)
 
 ### Example of Creating Class & Object
