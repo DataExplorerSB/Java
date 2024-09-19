@@ -64,6 +64,68 @@ class Pen {
 ~~~
 ### How does object creation look like?
 ![class](https://github.com/user-attachments/assets/12c829a5-e3dc-422e-8c93-73ad6fff5c4a)
+# Variables and Methods in Classes
+1. Classes are only blueprint for objects.
+2. Variables are called data members/properties. (basically separate copy are created for
+each object)[talking about instance variable here]
+3. Methods are called member methods/behaviors/functionality.(each methods get
+executed in object spaces ).[talking about instance/non-static methods]
+4. Methods: set of instruction return for doing specific task.
+## Example 
+~~~
+class Demo {
+    public static void main(String[] args) {
 
+        System.out.println("we are working here");
+        // We need now to prepare Samosa according to blueprint
+        // want object of samosa
+        Samosa s1 = new Samosa();//reference variable s1
+        Samosa s2 = new Samosa();//reference variable s2
 
+        s1.price = 3;
+        s1.model = "Meetha Samosa";
+        s1.shape = "triangular";
+        s1.color = "Yellow";
+
+        s2.price = 10;
+        s2.model = "Mix Samosa";
+        s2.shape = "rectangular";
+        s2.color = "Reddish";
+
+        // It is necessary to call/invoke non-static method with object
+        s1.showColor();
+        s2.showColor();
+        int price = s1.getPrice();
+        int price1 = s2.getPrice();
+
+        System.out.println("total price " + (price + price1));
+
+    }
+}
+//Samosa Class
+public class Samosa {
+
+    // properties/variables/data members
+    // instance variables/non-static variables
+    int price;
+    String model;
+    String color;
+    String shape;
+
+    // behaviors/member methods
+    // non-static methods/instance methods
+
+    public void showColor()
+    {
+
+        System.out.println("Color is " + color);
+    }
+
+    public int getPrice() {
+        System.out.println("Price is : " + price);
+        return price;
+    }
+
+}
+~~~
 
