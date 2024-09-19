@@ -8,4 +8,4 @@
 * d. Polymorphism
 * e. Abstraction
 * f.  Encapsulation
-
+  Method: Function inside class
