@@ -34,9 +34,11 @@ class Start {
         p1.color = "black";
         p2.color = "blue";
 
-        System.out.println(p1.model);
+        /*System.out.println(p1.model);
         System.out.println(p2.model);
+        */
 
+     // Method calling
         p1.write();
 
         p2.write();
