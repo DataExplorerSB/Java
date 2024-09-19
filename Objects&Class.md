@@ -22,12 +22,13 @@ fetching, wagging tail).
     public static void main(String[] args) {
 
         System.out.println("Printing something");
-        // ek object create karne ki jarurat pad gyi
+        // We need to create object
         Pen p1 = new Pen();
         Pen p2 = new Pen();
         p1.model = "3 Rupya wala 1";
         p2.model = "5 Rupya  wala 1";
 
+        //Value of color is updated
         p1.color = "black";
         p2.color = "blue";
 
