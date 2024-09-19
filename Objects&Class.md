@@ -26,8 +26,9 @@ class Start {
         // We need to create object
         Pen p1 = new Pen();
         Pen p2 = new Pen();
-        p1.model = "3 Rupya wala 1";
-        p2.model = "5 Rupya  wala 1";
+        //Value is updated before printing
+        p1.model = "Matadoor";
+        p2.model = "Fountain";
 
         //Value of color is updated
         p1.color = "black";
@@ -55,8 +56,6 @@ class Pen {
     public void write() {
         System.out.println(model + " is writing in " + color + " Color");
     }
-
-    // .....
 }
 ~~~
 ### How does object creation look like?
