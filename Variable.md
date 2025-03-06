@@ -34,4 +34,6 @@ class VariableTest
 	}
 }
 ~~~
+## Static variable
+1. Static variable can never be local
 
