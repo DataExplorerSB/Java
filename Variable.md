@@ -10,7 +10,7 @@ executed
 3. Inside block like if,while,dowhile etc
 4. It can not used outside that block scope
 
-'''
+~~~
 class VariableTest
 {
 	public static void main(String args[])
@@ -32,4 +32,4 @@ class VariableTest
 
 	}
 }
-'''
+~~~
