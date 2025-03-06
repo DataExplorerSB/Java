@@ -1,10 +1,10 @@
-## Variables
+# Variables
 1. A variable is a container which holds the value while the Java program is
 executed
 2. Variable is a name of memory location
 3. int x = 50
 
-# Local Variables
+## Local Variables
 1. Declared inside localscope
 2. Inside method
 3. Inside block like if,while,dowhile etc
