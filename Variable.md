@@ -9,6 +9,7 @@ executed
 2. Inside method
 3. Inside block like if,while,dowhile etc
 4. It can not used outside that block scope
+5. **Remember : Local variable can not work without initialisation**
 
 ~~~
 class VariableTest
@@ -33,3 +34,4 @@ class VariableTest
 	}
 }
 ~~~
+
