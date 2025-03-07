@@ -36,4 +36,5 @@ class VariableTest
 ~~~
 ## Static variable
 1. Static variable can never be local
+2. If static variable is situated in the same class where main method is, then static variable can be directly used.
 
