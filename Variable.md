@@ -34,6 +34,46 @@ class VariableTest
 	}
 }
 ~~~
+## Instance Variable
+1. Declared inside class and outside the methods
+2. Used with object of class inside which they are declared
+3. Copy of variables are made for each object
+4. Syntax:
+a. object.Variable
+~~~
+class InstanceExample
+{
+	// instance variable
+	int x=50;
+	double y;
+	// single copy: for all objects
+	static int n1=100;
+
+	public static void main(String[] args) 
+	{
+		
+		System.out.println("program started");
+		// Create object 
+		InstanceExample ob=new InstanceExample();
+		InstanceExample ob1=new InstanceExample();
+		ob1.x=40;
+		ob.x=10;
+		System.out.println("ob.x "+ob.x);
+		System.out.println("ob1.x "+ob1.x);
+		System.out.println(ob.y);
+		System.out.println(ob1.y);
+		System.out.println(InstanceExample.n1);
+		System.out.println(n1);
+	
+
+	}
+
+	boolean a=true;
+}
+~~~
+
+// default values by data type ki default value ko le leta hai.
+
 ## Static variable
 1. Static variable can never be local
 2. If static variable is used in the same class in which class it is located, then static variable can be directly used.
