@@ -36,5 +36,5 @@ class VariableTest
 ~~~
 ## Static variable
 1. Static variable can never be local
-2. If static variable is situated in the same class where **main** method is, then static variable can be directly used.
+2. If static variable is used in the same class in which class it is located, then static variable can be directly used.
 
