@@ -84,4 +84,6 @@ class InstanceExample
 3. Used directly with className no object is required
 4. Syntax
 a. ClassName.VariableName
+### Example to differentiate between static and instance variable
+We assume in a school there are 20 students in a english class. A student feels thirsty during class and asks the classteacher from where he can drink water. Teacher tells him to drink water 
 
