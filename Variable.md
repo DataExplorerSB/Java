@@ -10,6 +10,7 @@ executed
 3. Inside block like if,while,dowhile etc
 4. It can not used outside that block scope
 5. **Remember : Local variable can not work without initialisation**
+![image](https://github.com/user-attachments/assets/c0de481f-c9b4-4068-a88f-0c8a5399cede)
 
 ~~~
 class VariableTest
