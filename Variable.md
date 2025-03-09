@@ -77,4 +77,9 @@ class InstanceExample
 ## Static variable
 1. Static variable can never be local
 2. If static variable is used in the same class in which class it is located, then static variable can be directly used.
+3. 1. Variable with static keywords are static variable
+2. Single copy is made for static variable and shared amongst objects
+3. Used directly with className no object is required
+4. Syntax
+a. ClassName.VariableName
 
