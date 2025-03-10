@@ -27,6 +27,7 @@ class LiteralExample
 		System.out.println(n4);
 	}
 ~~~
+## Integer Literal
 # In Java, you can represent the integer literal 26 in different number systems using the following formats:
 ~~~
 // base 10
@@ -43,4 +44,22 @@ class LiteralExample
 		System.out.println(valueDec);
 		System.out.println(valueHex);
 		System.out.println(valueBin);
+~~~
+## Floating Point Literal
+~~~
+// float-- after point : max 7 digits
+
+		float f=1313.3124252524f;
+		// double --after point :  max 16 digits
+		double d=3235.12345678987654D;
+		double d1=235.235;
+
+		System.out.println(f);
+		System.out.println(d);
+		System.out.println(d1);
+
+		float f1=2.3f;
+		double d3=1.23e2;
+		// 1.23x10pow2
+		System.out.println(d3);
 ~~~
