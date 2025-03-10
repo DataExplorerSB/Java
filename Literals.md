@@ -63,3 +63,24 @@ class LiteralExample
 		// 1.23x10pow2
 		System.out.println(d3);
 ~~~
+## character literals
+		// 'A','\u0000','\f0000'
+		char ch1='R';
+		char ch2='!';
+		char ch3='\u0000';
+		char ch4='\u00F1';
+		char ch5='\0';
+		System.out.println(ch1);
+		System.out.println(ch2);
+		System.out.println(ch3);
+		// System.out.println(ch4);
+		System.out.println(ch5);
+
+		System.out.println("hi "+'\t'+" how are you");
+		// \t tab space
+		// \n newline
+		// \f formfeed
+		// \r carriage return
+		// \" double quote
+		// \' single quote
+
