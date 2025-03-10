@@ -89,4 +89,13 @@ class LiteralExample
 
 		// Null literal
 		String test=null;
+  ## More more readability underscrore
+		long debiteCardNumber=1212_2323_3434_3532L;
+		System.out.println(debiteCardNumber);
+		float pi=3.14_15F;
+		long hexValue=0xFF_EC_DE;
+		int binValue=0b11_11_10;
+		System.out.println(pi);
+		System.out.println(hexValue);
+		System.out.println(binValue);
 
