@@ -27,24 +27,20 @@ class LiteralExample
 		System.out.println(n4);
 	}
 ~~~
-# In Java, you can represent the integer literal 1001 in different number systems using the following formats:
+# In Java, you can represent the integer literal 26 in different number systems using the following formats:
 ~~~
-Decimal (Base 10)
-int decimal = 1001;
-Hexadecimal (Base 16)
-int hexadecimal = 0x3E9; // 1001 in hexadecimal
-Binary (Base 2)
-int binary = 0b1111101001; // 1001 in binary
-/////////////////////////////////////////////
-public class NumberFormats {
-    public static void main(String[] args) {
-        int decimal = 1001;
-        int hexadecimal = 0x3E9;
-        int binary = 0b1111101001;
+// base 10
+		int valueDec=26;
 
-        System.out.println("Decimal: " + decimal);
-        System.out.println("Hexadecimal: " + hexadecimal);
-        System.out.println("Binary: " + binary);
-    }
-}
+		// base 16
+		// prefix--0x [Hex Decimal 0-9,A-F]
+		// Representation in Hexadecimal
+		int valueHex=0x1A;
+
+		// base 2 // Representation in Binary
+		// prefix-0b [Binary 0,1]
+		int valueBin=0b11010;
+		System.out.println(valueDec);
+		System.out.println(valueHex);
+		System.out.println(valueBin);
 ~~~
