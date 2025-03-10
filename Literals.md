@@ -83,4 +83,10 @@ class LiteralExample
 		// \r carriage return
 		// \" double quote
 		// \' single quote
+  ## String literal:
+
+		String name="substring";
+
+		// Null literal
+		String test=null;
 
